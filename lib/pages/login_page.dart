@@ -15,10 +15,7 @@ class LoginPage extends StatelessWidget {
             SizedBox(
               height: 50,
             ),
-            Image.asset(
-              'images/login_image.png',
-              fit: BoxFit.cover,
-            ),
+            Image.asset('images/login_image.png'),
             Text(
               'Login',
               style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
